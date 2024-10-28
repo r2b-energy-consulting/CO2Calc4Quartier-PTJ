@@ -223,7 +223,7 @@ df = df/8760
 
 # jährliche Emissionsfaktoren
 if save_ef_tables:
-    df.to_excel(f'{outputs_folder}/AEFMEF_jährlich_{region}.xlsx',header=True,index=True)
+    df.to_excel(f'{outputs_folder}/AEF_MEF_jährlich_{region}.xlsx',header=True,index=True)
 
 
     
