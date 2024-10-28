@@ -5,7 +5,7 @@ years = [2019,2020,2021,2022]
 path = os.getcwd()
 inputs_folder = 'Eingangsdaten'
 plots_folder = 'Ausgangsabbildungen'
-outputs_folder = 'Ausgangstabellen'
+outputs_folder = 'Emissionsintensitäten'
 
 if not os.path.exists(plots_folder):
     os.makedirs(plots_folder)
